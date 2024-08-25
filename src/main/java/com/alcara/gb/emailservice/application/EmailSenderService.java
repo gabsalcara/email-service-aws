@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class EmailSenderServiceImpl implements EmailSenderUseCase {
+public class EmailSenderService implements EmailSenderUseCase {
 
     private final EmailSenderGateway emailSenderGateway;
 
     @Autowired
-    public EmailSenderServiceImpl(EmailSenderGateway emailSenderGateway) {
+    public EmailSenderService(EmailSenderGateway emailSenderGateway) {
         this.emailSenderGateway = emailSenderGateway;
     }
 
