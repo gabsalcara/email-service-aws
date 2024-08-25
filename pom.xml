@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.alcara.gb</groupId>
-	<artifactId>email-service</artifactId>
+	<artifactId>emailservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>email-service</name>
+	<name>emailservice</name>
 	<description>Uber Code Challenge</description>
 	<url/>
 	<licenses>

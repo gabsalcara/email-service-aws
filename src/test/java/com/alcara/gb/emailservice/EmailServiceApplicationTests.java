@@ -1,4 +1,4 @@
-package com.alcara.gb.email_service;
+package com.alcara.gb.emailservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

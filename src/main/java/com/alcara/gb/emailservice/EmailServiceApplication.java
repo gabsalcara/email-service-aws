@@ -1,4 +1,4 @@
-package com.alcara.gb.email_service;
+package com.alcara.gb.emailservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
