@@ -2,6 +2,7 @@ package com.alcara.gb.emailservice.controller;
 
 import com.alcara.gb.emailservice.adapters.EmailSenderGateway;
 import com.alcara.gb.emailservice.application.EmailSenderService;
+import com.alcara.gb.emailservice.core.Dto.EmailRequest;
 import com.alcara.gb.emailservice.core.exceptions.EmailServiceException;
 import org.apache.http.protocol.HTTP;
 import org.springframework.beans.factory.annotation.Autowired;
