@@ -3,7 +3,9 @@ package com.alcara.gb.emailservice.application;
 import com.alcara.gb.emailservice.adapters.EmailSenderGateway;
 import com.alcara.gb.emailservice.core.EmailSenderUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EmailSenderServiceImpl implements EmailSenderUseCase {
 
     private final EmailSenderGateway emailSenderGateway;
