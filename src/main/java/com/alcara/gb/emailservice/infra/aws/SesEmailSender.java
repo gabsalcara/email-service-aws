@@ -1,6 +1,7 @@
 package com.alcara.gb.emailservice.infra.aws;
 
 import com.alcara.gb.emailservice.adapters.EmailSenderGateway;
+import com.alcara.gb.emailservice.core.exceptions.EmailServiceException;
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailService;
 import com.amazonaws.services.simpleemail.model.*;
