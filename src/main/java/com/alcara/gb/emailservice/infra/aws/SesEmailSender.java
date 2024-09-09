@@ -1,6 +1,5 @@
 package com.alcara.gb.emailservice.infra.aws;
 
-import com.alcara.gb.emailservice.adapters.EmailSenderGateway;
 import com.alcara.gb.emailservice.core.exceptions.EmailServiceException;
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailService;
@@ -10,7 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SesEmailSender implements EmailSenderGateway {
+public class SesEmailSender {
 
     @Value("${EMAIL}")
     private String email;
@@ -22,7 +21,6 @@ public class SesEmailSender implements EmailSenderGateway {
         this.amazonSimpleEmailService = amazonSimpleEmailService;
     }
 
-    @Override
     public void sendEmail(String para, String assunto, String body) {
         SendEmailRequest request = new SendEmailRequest()
                 .withSource(email)
